@@ -1,0 +1,48 @@
+{
+  "id": "homepage",
+  "name": "Homepage",
+  "routes": {
+    "prowlarr": {
+      "/api/v1/indexerstats": [
+        "get"
+      ],
+      "/api/v3/indexerstats": [
+        "get"
+      ]
+    },
+    "radarr": {
+      "/api/v3/calendar": [
+        "get"
+      ],
+      "/api/v3/movie": [
+        "get"
+      ],
+      "/api/v3/movie/{id}": [
+        "get"
+      ],
+      "/api/v3/queue/details": [
+        "get"
+      ],
+      "/api/v3/queue/status": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/calendar": [
+        "get"
+      ],
+      "/api/v3/wanted/missing": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/queue/details": [
+        "get"
+      ],
+      "/api/v3/series": [
+        "get"
+      ]
+    }
+  }
+}

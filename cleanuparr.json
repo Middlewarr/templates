@@ -1,0 +1,43 @@
+{
+  "id": "cleanuparr",
+  "name": "Cleanuparr",
+  "routes": {
+    "radarr": {
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/movie/{id}": [
+        "delete"
+      ],
+      "/api/v3/queue/{id}": [
+        "delete"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/episode": [
+        "get"
+      ],
+      "/api/v3/queue/{id}": [
+        "delete"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/series/{id}": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "scraparr",
+  "name": "Scraparr",
+  "routes": {
+    "prowlarr": {
+      "/api/v1/applications": [
+        "get"
+      ],
+      "/api/v1/health": [
+        "get"
+      ],
+      "/api/v1/indexer": [
+        "get"
+      ],
+      "/api/v1/indexerstatus": [
+        "get"
+      ],
+      "/api/v1/system/status": [
+        "get"
+      ]
+    },
+    "radarr": {
+      "/api/v3/diskspace": [
+        "get"
+      ],
+      "/api/v3/movie": [
+        "get"
+      ],
+      "/api/v3/moviefile": [
+        "get"
+      ],
+      "/api/v3/queue/status": [
+        "get"
+      ],
+      "/api/v3/rootfolder": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/diskspace": [
+        "get"
+      ],
+      "/api/v3/episodefile": [
+        "get"
+      ],
+      "/api/v3/queue/status": [
+        "get"
+      ],
+      "/api/v3/rootfolder": [
+        "get"
+      ],
+      "/api/v3/series": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    }
+  }
+}
