@@ -5,9 +5,6 @@
     "prowlarr": {
       "/api/v1/indexerstats": [
         "get"
-      ],
-      "/api/v3/indexerstats": [
-        "get"
       ]
     },
     "radarr": {
