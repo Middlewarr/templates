@@ -1,6 +1,7 @@
 {
   "id": "cleanuparr",
   "name": "Cleanuparr",
+  "url": "https://github.com/Cleanuparr/Cleanuparr",
   "routes": {
     "radarr": {
       "/api/v3/command": [

@@ -1,6 +1,7 @@
 {
   "id": "profilarr",
   "name": "Profilarr",
+  "url": "https://github.com/Dictionarry-Hub/profilarr",
   "routes": {
     "radarr": {
       "/api/v3/customformat": [

@@ -1,6 +1,7 @@
 {
   "id": "homepage",
   "name": "Homepage",
+  "url": "https://github.com/gethomepage/homepage",
   "routes": {
     "prowlarr": {
       "/api/v1/indexerstats": [
