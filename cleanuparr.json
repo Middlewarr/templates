@@ -2,7 +2,7 @@
   "id": "cleanuparr",
   "name": "Cleanuparr",
   "url": "https://github.com/Cleanuparr/Cleanuparr",
-  "routes": {
+  "endpoints": {
     "radarr": {
       "/api/v3/command": [
         "post"

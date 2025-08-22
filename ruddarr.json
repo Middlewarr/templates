@@ -2,7 +2,7 @@
   "id": "ruddarr",
   "name": "Ruddarr",
   "url": "github.com/ruddarr/app",
-  "routes": {
+  "endpoints": {
     "radarr": {
       "/api/v3/calendar": [
         "get"

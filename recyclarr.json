@@ -2,7 +2,7 @@
   "id": "recyclarr",
   "name": "Recyclarr",
   "url": "https://github.com/recyclarr/recyclarr",
-  "routes": {
+  "endpoints": {
     "radarr": {
       "/api/v3/command/{id}": [
         "get"

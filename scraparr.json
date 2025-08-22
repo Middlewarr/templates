@@ -2,7 +2,7 @@
   "id": "scraparr",
   "name": "Scraparr",
   "url": "https://github.com/thecfu/scraparr",
-  "routes": {
+  "endpoints": {
     "prowlarr": {
       "/api/v1/applications": [
         "get"

@@ -2,7 +2,7 @@
   "id": "profilarr",
   "name": "Profilarr",
   "url": "https://github.com/Dictionarry-Hub/profilarr",
-  "routes": {
+  "endpoints": {
     "radarr": {
       "/api/v3/customformat": [
         "get",

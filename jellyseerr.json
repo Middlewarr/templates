@@ -2,7 +2,7 @@
   "id": "jellyseerr",
   "name": "Jellyseerr",
   "url": "https://github.com/fallenbagel/jellyseerr",
-  "routes": {
+  "endpoints": {
     "radarr": {
       "/api/v3/command": [
         "post"
